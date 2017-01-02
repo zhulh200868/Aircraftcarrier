@@ -1,0 +1,13 @@
+1,hadoop,druid
+7,hadoop,druid
+2,hadoop,druid
+.,hadoop,druid
+1,hadoop,druid
+9,hadoop,druid
+.,hadoop,druid
+1,hadoop,druid
+5,hadoop,druid
+2,hadoop,druid
+.,hadoop,druid
+4,hadoop,druid
+0,hadoop,druid

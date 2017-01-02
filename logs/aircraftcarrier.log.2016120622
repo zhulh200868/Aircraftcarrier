@@ -1,0 +1,39 @@
+[2016-12-06 21:53:17,079] [views.py] [line:37] [INFO] [username] 123456 login home !
+[2016-12-06 21:53:19,076] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:09:29,542] [views.py] [line:37] [INFO] [username] 123456 login home !
+[2016-12-06 22:09:30,957] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:09:33,009] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:11:00,441] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:11:22,446] [views.py] [line:37] [INFO] [username] 123456 login home !
+[2016-12-06 22:11:25,292] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:11:27,757] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:13:15,247] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:14:09,792] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:15:00,496] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:17:04,898] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:17:09,299] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:17:11,536] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:17:52,733] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:17:55,861] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:17:57,890] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:19:41,953] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:19:47,667] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:19:54,280] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:19:56,239] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:21:11,989] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:21:27,039] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:21:29,594] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:22:27,479] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:22:29,236] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:24:23,127] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:24:24,796] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:25:47,493] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:25:51,960] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:25:57,325] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:26:00,092] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:26:02,671] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:26:48,605] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:26:52,510] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:26:54,025] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:26:56,430] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2016-12-06 22:27:03,704] [views.py] [line:97] [INFO] <QueryDict: {u'arg': [u'zhulh'], u'fun1': [u'os_util'], u'submit': [u''], u'tgt': [u'172.19.152.40'], u'fun2': [u'os_util.useradd']}>
