@@ -19,3 +19,5 @@ autodeploy系统：
 11月26号，实现简单的分页查询
 简单的例子，可以查看Ronaldo中views.hello的方法
 页面条数功能还未完成
+
+重点完成autodelpoy
