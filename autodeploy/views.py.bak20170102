@@ -41,14 +41,14 @@ def return_data(request):
         # models.t_exec_jid_detail.objects.all()
         t_detail = models.t_exec_jid_detail(jid=jid, ip=ip,result=result,detail=detail)
         t_detail.save()
-        logger.info(" - 接收到的报文是: %s"%json.dumps(request.POST))
+        logger.info(" - 接收到的报文是: %s"%json.loads(request.POST))
     else:
         pass
     return HttpResponse("OK")
 
 @csrf_exempt
 def salt_api(request):
-    print(request.POST)
+    # print(request.POST)
     if request.method == "POST":
         if request.META.has_key('HTTP_X_FORWARDED_FOR'):
             ip =  request.META['HTTP_X_FORWARDED_FOR']
@@ -56,12 +56,12 @@ def salt_api(request):
             ip = request.META['REMOTE_ADDR']
         # print(ip)
         # logger.info(ip)
-        logger.info(" - 获取到的IP地址为：%s"%ip)
         if ip not in settings.CLIENT_SAFE_IF:
             return HttpResponse("The ip is not safe !")
+        logger.info(" - 获取到的IP地址为：%s"%ip)
         logger.info(" - 访问IP[%s]在安全IP列表[%s]中"%(ip,settings.CLIENT_SAFE_IF))
         form_value = SaltForm(request.POST)
-        print(form_value.is_valid())
+        # print(form_value.is_valid())
         if form_value.is_valid():
             sapi = saltAPI()
             client = "local_async"
@@ -81,7 +81,7 @@ def salt_api(request):
                         "tgt":tgt,
                         "ret":ret,
                     }
-            print(params)
+            # print(params)
         try:
             # args = str(request.POST.get("arg").strip("u''"))
             args = form_value.cleaned_data['arg']
@@ -107,7 +107,6 @@ def salt_api(request):
         total_ip_list=[]
         success_ip_list=[]
         fail_ip_list=[]
-        #在这里需要等待查询数据库中是否有minion的返回信息
         while True:
             T_num = models.t_exec_jid_detail.objects.all().filter(jid=jid,result='True').count()
             F_num = models.t_exec_jid_detail.objects.all().filter(jid=jid,result='False').count()
@@ -128,7 +127,7 @@ def salt_api(request):
         if flag:
             for i in tgt.split(","):
                 success_ip_list.append(i)
-            logger.info(" - true")
+            logger.info("true")
             return HttpResponse("The command is successful !%s"%success_ip_list)
         else:
             ip_list = models.t_exec_jid_detail.objects.all().values('ip').filter(jid=jid,result='False')

@@ -1,3 +1,2 @@
-[2017-01-02 10:12:33,980] [views.py] [line:37] [INFO] [username] 123456 login home !
-[2017-01-02 10:12:39,401] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
-[2017-01-02 10:17:29,612] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2017-01-04 10:56:50,660] [views.py] [line:37] [INFO] [username] 123456 login home !
+[2017-01-04 10:56:52,753] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
