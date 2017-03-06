@@ -5,6 +5,8 @@ from django.shortcuts import render,render_to_response,HttpResponseRedirect,Http
 from django.template import RequestContext
 from django import forms
 from models import User,Command_info
+
+from autoreport.models import Server_info
 import logger
 import urllib
 import urllib2
@@ -210,9 +212,11 @@ def command(request):
 
 
 def filemanage(request):
-    return render_to_response('filemanage.html')
+    username = request.COOKIES.get('username','')
+    return render_to_response('filemanage.html',{'username':username})
 
 def dns(request):
+    username = request.COOKIES.get('username','')
     if request.method == 'POST':
         print(request.POST)
         if request.POST.get("clustername") == "client":
@@ -223,7 +227,40 @@ def dns(request):
                 dns_ip.write("%s,%s,%s\n"%(i, request.POST.get("product"), clustername))
         ret=dns_api.main()
         return HttpResponse(ret)
-    return render_to_response('dns.html')
+    return render_to_response('dns.html',{'username':username})
+
+# 服务器管理页面函数
+def server_info(request):
+    username = request.COOKIES.get('username','')
+    if request.POST.get('action') == "Select":
+        ip_list = []
+        for ip in str(request.POST.get('ip_list')).split(","):
+            ip_list.append(ip)
+        print(len(ip_list))
+        if len(ip_list) == 1:
+            meg = Server_info.objects.all().values("id","assert_id","memory","cpu_model","cpu_num","sn","manufacturer","os").filter(assert_id__icontains=request.POST.get('ip_list'))
+        elif len(ip_list) > 1:
+            meg = Server_info.objects.all().values("id","assert_id","memory","cpu_model","cpu_num","sn","manufacturer","os").filter(assert_id__in=ip_list)
+        else:
+            meg = Server_info.objects.all().values("id","assert_id","memory","cpu_model","cpu_num","sn","manufacturer","os")
+    else:
+        meg = Server_info.objects.all().values("id","assert_id","memory","cpu_model","cpu_num","sn","manufacturer","os")
+    try:
+        limit = int(request.GET.get("page_num"))
+    except Exception,e:
+        limit = 100
+    paginator = Paginator(meg,limit)
+    print(limit)
+    page = request.GET.get('page')
+
+    try:
+        value = paginator.page(page)
+    except PageNotAnInteger:
+        value = paginator.page(1)
+    except EmptyPage:
+        value = paginator.page(paginator.num_pages)
+    return render_to_response('server_info.html',{'meg':value,'username':username})
+
 
 def test(request):
     if request.method == "POST":

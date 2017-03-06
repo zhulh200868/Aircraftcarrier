@@ -1,2 +1,662 @@
-[2017-01-04 10:56:50,660] [views.py] [line:37] [INFO] [username] 123456 login home !
-[2017-01-04 10:56:52,753] [views.py] [line:56] [INFO] [username] 123456 login the autodeploy !
+[2017-03-05 13:26:23,878] [views.py] [wrapper] [line:32] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:26:23,880] [views.py] [wrapper] [line:37] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:26:54,319] [views.py] [wrapper] [line:31] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:26:54,319] [views.py] [wrapper] [line:36] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:27:46,407] [views.py] [wrapper] [line:31] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:27:46,407] [views.py] [wrapper] [line:36] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:28:10,677] [views.py] [wrapper] [line:31] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:28:10,677] [views.py] [wrapper] [line:36] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:28:40,046] [views.py] [wrapper] [line:31] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:28:40,046] [views.py] [wrapper] [line:36] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:29:02,388] [views.py] [wrapper] [line:31] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:29:02,388] [views.py] [wrapper] [line:36] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:29:44,717] [views.py] [wrapper] [line:31] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:29:44,717] [views.py] [wrapper] [line:36] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:30:08,967] [views.py] [wrapper] [line:31] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:30:08,967] [views.py] [wrapper] [line:36] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:30:08,967] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 13:30:08,967] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 13:30:09,226] [views.py] [ReceiveTask] [line:129] [INFO]  - 当前任务[2017030201]已成功执行完成，请不要重复尝试
+[2017-03-05 13:30:09,226] [views.py] [ReceiveTask] [line:130] [INFO]  - true
+[2017-03-05 13:32:03,487] [views.py] [wrapper] [line:31] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:32:03,487] [views.py] [wrapper] [line:36] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:33:27,517] [views.py] [wrapper] [line:31] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:33:27,517] [views.py] [wrapper] [line:36] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:33:56,474] [views.py] [wrapper] [line:31] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:33:56,474] [views.py] [wrapper] [line:36] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:34:48,076] [views.py] [wrapper] [line:31] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:34:48,078] [views.py] [wrapper] [line:36] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:39:37,221] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:39:37,221] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:40:58,427] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:40:58,427] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:41:36,936] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:41:36,937] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:41:58,867] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:41:58,867] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:41:58,868] [views.py] [ReceiveTask] [line:107] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 13:41:58,868] [views.py] [ReceiveTask] [line:108] [INFO]  - task_id == 2017030201
+[2017-03-05 13:41:59,078] [views.py] [ReceiveTask] [line:131] [INFO]  - 当前任务[2017030201]已成功执行完成，请不要重复尝试
+[2017-03-05 13:41:59,079] [views.py] [ReceiveTask] [line:132] [INFO]  - true
+[2017-03-05 13:45:19,637] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:45:19,637] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:45:19,638] [views.py] [ReceiveTask] [line:108] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 13:45:19,638] [views.py] [ReceiveTask] [line:109] [INFO]  - task_id == 2017030201
+[2017-03-05 13:45:19,785] [views.py] [ReceiveTask] [line:132] [INFO]  - 当前任务[2017030201]已成功执行完成，请不要重复尝试
+[2017-03-05 13:45:19,785] [views.py] [ReceiveTask] [line:133] [INFO]  - true
+[2017-03-05 13:45:50,654] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:45:50,654] [views.py] [login_wrapper] [line:36] [WARNING]  - 您访问的IP[127.0.0.1]不在安全IP列表[['172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:50:06,763] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:50:06,763] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:50:06,763] [views.py] [ReceiveTask] [line:186] [CRITICAL]  - The Exception is expected string or buffer
+[2017-03-05 13:50:48,214] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:50:48,214] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:50:48,214] [views.py] [ReceiveTask] [line:187] [CRITICAL]  - The Exception is expected string or buffer
+[2017-03-05 13:52:36,315] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:52:36,315] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:52:36,315] [views.py] [ReceiveTask] [line:188] [CRITICAL]  - The Exception is expected string or buffer
+[2017-03-05 13:53:09,269] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:53:09,269] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:53:09,269] [views.py] [ReceiveTask] [line:187] [CRITICAL]  - The Exception is expected string or buffer
+[2017-03-05 13:53:30,108] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:53:30,108] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:54:02,849] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:54:02,849] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:54:02,849] [views.py] [ReceiveTask] [line:187] [CRITICAL]  - The Exception is "'task_id'"
+[2017-03-05 13:54:28,082] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:54:28,082] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:54:28,082] [views.py] [ReceiveTask] [line:187] [CRITICAL]  - The Exception is 'builtin_function_or_method' object has no attribute '__getitem__'
+[2017-03-05 13:55:22,910] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:55:22,910] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:55:22,910] [views.py] [ReceiveTask] [line:108] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 13:55:22,910] [views.py] [ReceiveTask] [line:109] [INFO]  - task_id == 2017030201
+[2017-03-05 13:55:23,072] [views.py] [ReceiveTask] [line:132] [INFO]  - 当前任务[2017030201]已成功执行完成，请不要重复尝试
+[2017-03-05 13:55:23,073] [views.py] [ReceiveTask] [line:133] [INFO]  - true
+[2017-03-05 13:59:33,257] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:59:33,259] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:59:57,592] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 13:59:57,592] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 13:59:57,592] [views.py] [login_wrapper] [line:41] [WARNING]  - The exception is 'builtin_function_or_method' object has no attribute 'get'
+[2017-03-05 14:00:17,903] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 14:00:17,903] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 14:00:17,903] [views.py] [login_wrapper] [line:41] [WARNING]  - The exception is 'builtin_function_or_method' object has no attribute '__getitem__'
+[2017-03-05 14:00:32,611] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 14:00:32,611] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 14:01:01,178] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 14:01:01,180] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 14:01:01,180] [views.py] [login_wrapper] [line:41] [WARNING]  - The exception is expected string or buffer
+[2017-03-05 14:01:24,578] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 14:01:24,578] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 14:01:24,578] [views.py] [login_wrapper] [line:41] [WARNING]  - The exception is expected string or buffer
+[2017-03-05 14:01:39,507] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 14:01:39,507] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 14:01:52,868] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 14:01:52,868] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 14:02:19,096] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 14:02:19,096] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 14:05:01,743] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 14:05:01,743] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 14:05:01,743] [views.py] [ReceiveTask] [line:113] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.useradd'}
+[2017-03-05 14:05:01,743] [views.py] [ReceiveTask] [line:114] [INFO]  - task_id == 2017030201
+[2017-03-05 14:05:01,950] [views.py] [ReceiveTask] [line:137] [INFO]  - 当前任务[2017030201]已成功执行完成，请不要重复尝试
+[2017-03-05 14:05:01,950] [views.py] [ReceiveTask] [line:138] [INFO]  - true
+[2017-03-05 16:15:18,418] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 16:15:18,418] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 16:15:18,420] [views.py] [ReceiveTask] [line:113] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.useradd'}
+[2017-03-05 16:15:18,420] [views.py] [ReceiveTask] [line:114] [INFO]  - task_id == 2017030201
+[2017-03-05 16:15:19,065] [views.py] [ReceiveTask] [line:137] [INFO]  - 当前任务[2017030201]已成功执行完成，请不要重复尝试
+[2017-03-05 16:15:19,065] [views.py] [ReceiveTask] [line:138] [INFO]  - true
+[2017-03-05 16:25:47,591] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 16:25:47,591] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 16:25:47,592] [views.py] [ReceiveTask] [line:116] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.useradd'}
+[2017-03-05 16:25:47,592] [views.py] [ReceiveTask] [line:117] [INFO]  - task_id == 2017030201
+[2017-03-05 16:25:47,881] [views.py] [ReceiveTask] [line:140] [INFO]  - 当前任务[2017030201]已成功执行完成，请不要重复尝试
+[2017-03-05 16:25:47,881] [views.py] [ReceiveTask] [line:141] [INFO]  - true
+[2017-03-05 16:28:31,779] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 16:28:31,779] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 16:28:31,779] [views.py] [ReceiveTask] [line:103] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.useradd'}
+[2017-03-05 16:28:31,779] [views.py] [ReceiveTask] [line:104] [INFO]  - task_id == 2017030201
+[2017-03-05 16:28:32,035] [views.py] [ReceiveTask] [line:127] [INFO]  - 当前任务[2017030201]已成功执行完成，请不要重复尝试
+[2017-03-05 16:28:32,035] [views.py] [ReceiveTask] [line:128] [INFO]  - true
+[2017-03-05 16:33:49,584] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 16:33:49,585] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 16:33:49,585] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.useradd'}
+[2017-03-05 16:33:49,585] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 16:33:49,828] [views.py] [ReceiveTask] [line:182] [CRITICAL]  - The Exception is Cannot resolve keyword 'ip' into field. Choices are: command, id, ip_list, jid, no, step_num, task_id
+[2017-03-05 16:34:05,585] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 16:34:05,585] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 16:34:05,585] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.useradd'}
+[2017-03-05 16:34:05,585] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 16:34:05,855] [views.py] [ReceiveTask] [line:182] [CRITICAL]  - The Exception is 0
+[2017-03-05 16:42:01,211] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 16:42:01,211] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 16:42:01,213] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.useradd'}
+[2017-03-05 16:42:01,213] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 16:42:01,426] [views.py] [ReceiveTask] [line:184] [CRITICAL]  - The Exception is HTTP Error 403: Forbidden
+[2017-03-05 16:43:15,653] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 16:43:15,654] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 16:43:15,654] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.useradd'}
+[2017-03-05 16:43:15,654] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 16:43:16,151] [views.py] [ReceiveTask] [line:184] [CRITICAL]  - The Exception is [Errno 10054] 
+[2017-03-05 16:58:36,772] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 16:58:36,772] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 16:58:36,772] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 16:58:36,772] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 16:58:37,789] [views.py] [ReceiveTask] [line:187] [CRITICAL]  - The Exception is 0
+[2017-03-05 16:59:02,569] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 16:59:02,569] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 16:59:02,569] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 16:59:02,571] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 16:59:03,664] [views.py] [ReceiveTask] [line:188] [CRITICAL]  - The Exception is 0
+[2017-03-05 16:59:28,523] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 16:59:28,523] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 16:59:28,523] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 16:59:28,525] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 16:59:28,717] [views.py] [ReceiveTask] [line:189] [CRITICAL]  - The Exception is 0
+[2017-03-05 17:00:04,561] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 17:00:04,561] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 17:00:04,562] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 17:00:04,562] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 17:00:05,440] [views.py] [ReceiveTask] [line:189] [CRITICAL]  - The Exception is 0
+[2017-03-05 17:00:28,325] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 17:00:28,325] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 17:00:28,326] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 17:00:28,326] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 17:00:28,868] [views.py] [ReceiveTask] [line:190] [CRITICAL]  - The Exception is 0
+[2017-03-05 17:00:51,484] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 17:00:51,484] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 17:00:51,486] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 17:00:51,486] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 17:00:52,086] [views.py] [ReceiveTask] [line:143] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 17:00:52,086] [views.py] [ReceiveTask] [line:144] [INFO]  - 任务[2017030201]有执行失败的主机
+[2017-03-05 17:00:52,086] [views.py] [ReceiveTask] [line:190] [CRITICAL]  - The Exception is global name 'temp_ip_list' is not defined
+[2017-03-05 17:01:43,407] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 17:01:43,407] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 17:01:43,407] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 17:01:43,407] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 17:01:44,285] [views.py] [ReceiveTask] [line:190] [CRITICAL]  - The Exception is 0
+[2017-03-05 17:02:04,874] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 17:02:04,874] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 17:02:04,875] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 17:02:04,875] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 17:02:05,108] [views.py] [ReceiveTask] [line:141] [WARNING]  - 检查Command时发现不一致，最开始的是[os_util.useradd],现在的是[os_util.userdel]
+[2017-03-05 17:03:20,969] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 17:03:20,970] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 17:03:20,970] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.userdel'}
+[2017-03-05 17:03:20,970] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 17:03:21,183] [views.py] [ReceiveTask] [line:134] [INFO]  - 当前任务[2017030201]已成功执行完成，请不要重复尝试
+[2017-03-05 17:03:21,184] [views.py] [ReceiveTask] [line:135] [INFO]  - true
+[2017-03-05 17:19:12,328] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 17:19:12,328] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 17:19:12,328] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.useradd'}
+[2017-03-05 17:19:12,329] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 17:19:12,575] [views.py] [ReceiveTask] [line:131] [INFO]  - 当前任务[2017030201]已成功执行完成，请不要重复尝试
+[2017-03-05 17:19:12,575] [views.py] [ReceiveTask] [line:132] [INFO]  - true
+[2017-03-05 17:26:00,716] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 17:26:00,717] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 17:26:00,717] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21,172.19.152.88', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.useradd'}
+[2017-03-05 17:26:00,717] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 17:26:00,914] [views.py] [ReceiveTask] [line:131] [INFO]  - 当前任务[2017030201]已成功执行完成，请不要重复尝试
+[2017-03-05 17:26:00,914] [views.py] [ReceiveTask] [line:132] [INFO]  - true
+[2017-03-05 17:26:22,512] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 17:26:22,512] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 17:26:22,512] [views.py] [ReceiveTask] [line:105] [INFO]  - 接收到命令串为: {'tgt': '172.19.152.19,172.19.152.21,172.19.152.88', 'arg1': 'zhulh', 'expr_form': 'list', 'ret': 'callback_util', 'client': 'local_async', 'fun': 'os_util.useradd'}
+[2017-03-05 17:26:22,512] [views.py] [ReceiveTask] [line:106] [INFO]  - task_id == 2017030201
+[2017-03-05 17:26:22,709] [views.py] [ReceiveTask] [line:183] [CRITICAL]  - The Exception is [Errno 10054] 
+[2017-03-05 19:14:00,039] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:14:00,039] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:14:00,039] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:14:04,427] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:14:05,951] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:14:07,203] [views.py] [QueryJob] [line:294] [CRITICAL]  - The Exception is 'NoneType' object is not iterable
+[2017-03-05 19:14:10,213] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:14:10,213] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:14:10,213] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:14:13,592] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:14:14,700] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:14:16,153] [views.py] [QueryJob] [line:294] [CRITICAL]  - The Exception is 'NoneType' object is not iterable
+[2017-03-05 19:16:19,141] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:16:19,141] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:16:19,141] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:16:22,211] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:16:23,302] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:16:23,302] [views.py] [QueryJob] [line:277] [INFO]  - false
+[2017-03-05 19:16:26,309] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:16:26,309] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:16:26,309] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:16:29,599] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:16:30,558] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:16:30,558] [views.py] [QueryJob] [line:277] [INFO]  - false
+[2017-03-05 19:16:33,563] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:16:33,563] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:16:33,565] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:16:37,953] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:16:39,529] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:16:39,529] [views.py] [QueryJob] [line:277] [INFO]  - false
+[2017-03-05 19:17:07,775] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:17:07,775] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:17:07,776] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:17:11,775] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:17:12,964] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:17:12,966] [views.py] [QueryJob] [line:277] [INFO]  - false
+[2017-03-05 19:17:15,973] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:17:15,973] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:17:15,973] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:17:19,073] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:17:20,973] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:17:20,973] [views.py] [QueryJob] [line:277] [INFO]  - false
+[2017-03-05 19:18:12,667] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:18:12,667] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:18:12,667] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:18:16,505] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:18:17,680] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:18:18,368] [views.py] [QueryJob] [line:277] [INFO]  - false
+[2017-03-05 19:18:21,375] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:18:21,375] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:18:21,375] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:18:25,877] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:18:27,203] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:18:28,526] [views.py] [QueryJob] [line:277] [INFO]  - false
+[2017-03-05 19:19:00,565] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:19:00,565] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:19:00,565] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:19:03,849] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:19:05,799] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:19:07,677] [views.py] [QueryJob] [line:278] [INFO]  - false
+[2017-03-05 19:20:12,398] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:20:12,398] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:20:12,400] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:20:15,734] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:20:16,855] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:20:17,954] [views.py] [QueryJob] [line:277] [INFO]  - false
+[2017-03-05 19:20:20,960] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:20:20,960] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:20:20,960] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:21:10,720] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:21:10,720] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:21:10,720] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:21:14,076] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:21:15,767] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:21:17,092] [views.py] [QueryJob] [line:277] [INFO]  - false
+[2017-03-05 19:21:20,101] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:21:20,101] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:21:20,101] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:21:41,392] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:21:41,392] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:21:41,394] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:21:44,826] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:21:45,849] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:21:47,244] [views.py] [QueryJob] [line:295] [CRITICAL]  - The Exception is 'NoneType' object is not iterable
+[2017-03-05 19:21:50,250] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:21:50,250] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:21:50,250] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:22:06,835] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:22:06,835] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:22:06,835] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:22:11,986] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:22:13,243] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:22:14,957] [views.py] [QueryJob] [line:278] [INFO]  - false
+[2017-03-05 19:22:17,961] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:22:17,961] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:22:17,961] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:22:20,802] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:22:21,938] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:22:22,996] [views.py] [QueryJob] [line:278] [INFO]  - false
+[2017-03-05 19:22:26,003] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:22:26,003] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:22:26,003] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:22:56,029] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:22:56,029] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:22:56,029] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:22:59,173] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:23:00,196] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:23:01,543] [views.py] [QueryJob] [line:296] [CRITICAL]  - The Exception is 'NoneType' object is not iterable
+[2017-03-05 19:23:04,549] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:23:04,549] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:23:04,549] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:24:47,234] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:24:47,234] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:24:47,234] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:24:51,262] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:24:52,346] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:24:53,788] [views.py] [QueryJob] [line:279] [INFO]  - false
+[2017-03-05 19:24:56,795] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:24:56,795] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:24:56,795] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:25:24,980] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:25:24,980] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:25:24,980] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:25:31,039] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:25:32,259] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:25:33,589] [views.py] [QueryJob] [line:281] [INFO]  - false
+[2017-03-05 19:25:36,596] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:25:36,596] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:25:36,598] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:26:42,713] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:26:42,713] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:26:42,713] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:26:46,331] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:26:47,450] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:26:48,846] [views.py] [QueryJob] [line:281] [INFO]  - false
+[2017-03-05 19:26:51,852] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:26:51,854] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:26:51,854] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:27:39,230] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:27:39,230] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:27:39,232] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:27:42,607] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:27:43,740] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:27:44,747] [views.py] [QueryJob] [line:279] [INFO]  - false
+[2017-03-05 19:27:47,753] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:27:47,755] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:27:47,755] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:28:12,793] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:28:12,795] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:28:12,795] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:28:16,957] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:28:18,842] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:28:20,482] [views.py] [QueryJob] [line:277] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:28:20,482] [views.py] [QueryJob] [line:278] [INFO]  - false
+[2017-03-05 19:28:23,489] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:28:23,489] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:28:23,489] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:28:27,290] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:28:28,444] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:28:29,095] [views.py] [QueryJob] [line:277] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:28:29,095] [views.py] [QueryJob] [line:278] [INFO]  - false
+[2017-03-05 19:28:32,101] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:28:32,101] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:28:32,102] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:28:34,194] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:28:34,778] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:28:36,585] [views.py] [QueryJob] [line:277] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:28:36,585] [views.py] [QueryJob] [line:278] [INFO]  - false
+[2017-03-05 19:28:39,591] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:28:39,591] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:28:39,591] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:28:42,348] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:28:43,351] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:28:44,467] [views.py] [QueryJob] [line:277] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:28:44,467] [views.py] [QueryJob] [line:278] [INFO]  - false
+[2017-03-05 19:28:47,473] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:28:47,473] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:28:47,473] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:28:50,506] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:28:51,979] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:28:52,414] [views.py] [QueryJob] [line:277] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:28:52,414] [views.py] [QueryJob] [line:278] [INFO]  - false
+[2017-03-05 19:28:55,420] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:28:55,420] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:28:55,420] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:28:57,572] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:28:59,114] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:29:02,644] [views.py] [QueryJob] [line:277] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:29:02,644] [views.py] [QueryJob] [line:278] [INFO]  - false
+[2017-03-05 19:29:05,651] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:29:05,651] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:29:05,653] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:29:10,992] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:29:11,869] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:29:13,071] [views.py] [QueryJob] [line:277] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:29:13,071] [views.py] [QueryJob] [line:278] [INFO]  - false
+[2017-03-05 19:29:16,076] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:29:16,078] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:29:16,078] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:29:18,453] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:29:19,655] [views.py] [QueryJob] [line:252] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:29:20,730] [views.py] [QueryJob] [line:277] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:29:20,730] [views.py] [QueryJob] [line:278] [INFO]  - false
+[2017-03-05 19:39:29,000] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:39:29,000] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:39:29,000] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:39:31,365] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:39:32,299] [views.py] [QueryJob] [line:257] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:39:32,299] [views.py] [QueryJob] [line:280] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:39:32,299] [views.py] [QueryJob] [line:281] [INFO]  - false
+[2017-03-05 19:39:32,299] [views.py] [QueryJob] [line:298] [CRITICAL]  - The Exception is global name 'temp_true_ip_list' is not defined
+[2017-03-05 19:40:18,677] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:40:18,677] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:40:18,677] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:40:22,137] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:40:24,812] [views.py] [QueryJob] [line:257] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:40:24,812] [views.py] [QueryJob] [line:264] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:40:24,812] [views.py] [QueryJob] [line:265] [INFO]  - false
+[2017-03-05 19:40:27,819] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:40:27,819] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:40:27,819] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:40:30,960] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:40:32,477] [views.py] [QueryJob] [line:257] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:40:32,479] [views.py] [QueryJob] [line:264] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:40:32,479] [views.py] [QueryJob] [line:265] [INFO]  - false
+[2017-03-05 19:40:35,484] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:40:35,484] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:40:35,484] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:40:38,167] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:40:40,015] [views.py] [QueryJob] [line:257] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:40:40,015] [views.py] [QueryJob] [line:264] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:40:40,015] [views.py] [QueryJob] [line:265] [INFO]  - false
+[2017-03-05 19:40:43,019] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:40:43,019] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:40:43,019] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:40:46,865] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:40:47,328] [views.py] [QueryJob] [line:257] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:40:47,329] [views.py] [QueryJob] [line:264] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:40:47,329] [views.py] [QueryJob] [line:265] [INFO]  - false
+[2017-03-05 19:40:50,335] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:40:50,335] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:40:50,335] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:40:53,983] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:40:55,338] [views.py] [QueryJob] [line:257] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:40:55,338] [views.py] [QueryJob] [line:264] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:40:55,338] [views.py] [QueryJob] [line:265] [INFO]  - false
+[2017-03-05 19:40:58,342] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:40:58,342] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:40:58,342] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:41:01,736] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:41:02,940] [views.py] [QueryJob] [line:257] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:41:02,940] [views.py] [QueryJob] [line:264] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:41:02,940] [views.py] [QueryJob] [line:265] [INFO]  - false
+[2017-03-05 19:41:05,947] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:41:05,947] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:41:05,947] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:41:09,230] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:41:10,598] [views.py] [QueryJob] [line:257] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:41:10,598] [views.py] [QueryJob] [line:264] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:41:10,598] [views.py] [QueryJob] [line:265] [INFO]  - false
+[2017-03-05 19:41:13,605] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:41:13,605] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:41:13,605] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:41:16,108] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:41:17,354] [views.py] [QueryJob] [line:257] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:41:17,355] [views.py] [QueryJob] [line:264] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:41:17,355] [views.py] [QueryJob] [line:265] [INFO]  - false
+[2017-03-05 19:41:20,361] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:41:20,361] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:41:20,362] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:41:23,364] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:41:24,536] [views.py] [QueryJob] [line:257] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:41:24,536] [views.py] [QueryJob] [line:264] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:41:24,536] [views.py] [QueryJob] [line:265] [INFO]  - false
+[2017-03-05 19:41:27,542] [views.py] [login_wrapper] [line:33] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 19:41:27,543] [views.py] [login_wrapper] [line:38] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 19:41:27,543] [views.py] [QueryJob] [line:219] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 19:41:30,108] [views.py] [QueryJob] [line:222] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 19:41:31,997] [views.py] [QueryJob] [line:257] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 19:41:31,997] [views.py] [QueryJob] [line:264] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,
+                        "message":"任务[2017030201]有执行失败的主机","result":"fail","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 19:41:31,997] [views.py] [QueryJob] [line:265] [INFO]  - false
+[2017-03-05 20:39:49,956] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:39:49,956] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:39:49,957] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:39:52,542] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:39:53,917] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:39:54,207] [views.py] [QueryJob] [line:275] [CRITICAL]  - The Exception is 'datetime.timedelta' object has no attribute 'minute'
+[2017-03-05 20:39:57,216] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:39:57,216] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:39:57,217] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:39:57,849] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:39:57,944] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:39:57,960] [views.py] [QueryJob] [line:275] [CRITICAL]  - The Exception is 'datetime.timedelta' object has no attribute 'minute'
+[2017-03-05 20:40:00,966] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:40:00,966] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:40:00,967] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:40:04,426] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:40:05,799] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:40:06,049] [views.py] [QueryJob] [line:275] [CRITICAL]  - The Exception is 'datetime.timedelta' object has no attribute 'minute'
+[2017-03-05 20:40:09,055] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:40:09,055] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:40:09,056] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:40:11,756] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:40:13,621] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:40:13,654] [views.py] [QueryJob] [line:275] [CRITICAL]  - The Exception is 'datetime.timedelta' object has no attribute 'minute'
+[2017-03-05 20:40:16,661] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:40:16,661] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:40:16,661] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:40:20,111] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:40:21,986] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:40:22,187] [views.py] [QueryJob] [line:275] [CRITICAL]  - The Exception is 'datetime.timedelta' object has no attribute 'minute'
+[2017-03-05 20:41:14,994] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:41:14,994] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:41:14,994] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:41:18,219] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:41:19,407] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:41:19,661] [views.py] [QueryJob] [line:276] [CRITICAL]  - The Exception is 'datetime.timedelta' object has no attribute 'minute'
+[2017-03-05 20:41:22,667] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:41:22,667] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:41:22,668] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:42:03,007] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:42:03,007] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:42:03,009] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:42:06,282] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:42:07,315] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:42:07,604] [views.py] [QueryJob] [line:276] [CRITICAL]  - The Exception is int() argument must be a string or a number, not 'datetime.timedelta'
+[2017-03-05 20:42:10,612] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:42:10,612] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:42:10,612] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:42:39,663] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:42:39,663] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:42:39,663] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:42:42,862] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:42:44,107] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:42:44,207] [views.py] [QueryJob] [line:276] [CRITICAL]  - The Exception is int() argument must be a string or a number, not 'datetime.timedelta'
+[2017-03-05 20:42:47,213] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:42:47,213] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:42:47,213] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:43:10,845] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:43:10,845] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:43:10,846] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:43:13,809] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:43:15,907] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:43:16,003] [views.py] [QueryJob] [line:275] [CRITICAL]  - The Exception is int() argument must be a string or a number, not 'datetime.timedelta'
+[2017-03-05 20:43:19,010] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:43:19,010] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:43:19,010] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:43:41,433] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:43:41,433] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:43:41,433] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:43:43,075] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:43:44,331] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:43:44,573] [views.py] [QueryJob] [line:276] [CRITICAL]  - The Exception is int() argument must be a string or a number, not 'datetime.timedelta'
+[2017-03-05 20:45:12,380] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:45:12,380] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:45:12,380] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:45:15,246] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:45:16,398] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:45:16,674] [views.py] [QueryJob] [line:254] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,"message":"任务[2017030201]有执行失败的主机","result":"fail","success_detail":"","success_num":0}
+[2017-03-05 20:45:16,674] [views.py] [QueryJob] [line:255] [INFO]  - false
+[2017-03-05 20:45:19,684] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:45:19,684] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:45:19,684] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:45:22,625] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:45:24,400] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:45:24,697] [views.py] [QueryJob] [line:254] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,"message":"任务[2017030201]有执行失败的主机","result":"fail","success_detail":"","success_num":0}
+[2017-03-05 20:45:24,697] [views.py] [QueryJob] [line:255] [INFO]  - false
+[2017-03-05 20:45:27,707] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:45:27,707] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:45:27,707] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:45:30,799] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:45:31,351] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:45:31,371] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:45:31,371] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:45:31,372] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:45:31,634] [views.py] [QueryJob] [line:254] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,"message":"任务[2017030201]有执行失败的主机","result":"fail","success_detail":"","success_num":0}
+[2017-03-05 20:45:31,634] [views.py] [QueryJob] [line:255] [INFO]  - false
+[2017-03-05 20:45:33,836] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:45:35,068] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:45:35,236] [views.py] [QueryJob] [line:254] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.19,172.19.152.21,172.19.152.88","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,"message":"任务[2017030201]有执行失败的主机","result":"fail","success_detail":"","success_num":0}
+[2017-03-05 20:45:35,236] [views.py] [QueryJob] [line:255] [INFO]  - false
+[2017-03-05 20:49:09,369] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 20:49:09,369] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 20:49:09,369] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 20:49:12,312] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 20:49:14,029] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 20:49:14,303] [views.py] [QueryJob] [line:258] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.88,172.19.152.19,172.19.152.21","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,"message":"任务[2017030201]有执行失败的主机","result":"running","running_detail":"172.19.152.88","running_num":1,"success_detail":"","success_num":0}
+[2017-03-05 21:13:50,325] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 21:13:50,325] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 21:13:50,325] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 21:13:50,825] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 21:13:51,203] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 21:13:51,421] [views.py] [QueryJob] [line:257] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.88,172.19.152.19,172.19.152.21","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists","fail_num":2,"message":"任务[2017030201]有执行失败的主机","result":"fail","success_detail":"","success_num":0}
+[2017-03-05 21:13:51,423] [views.py] [QueryJob] [line:260] [INFO]  - false
+[2017-03-05 21:15:05,910] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 21:15:05,910] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 21:15:05,910] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 21:15:06,595] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 21:15:08,065] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 21:15:08,134] [views.py] [QueryJob] [line:277] [CRITICAL]  - The Exception is unsupported operand type(s) for +: 'set' and 'set'
+[2017-03-05 21:15:11,141] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 21:15:11,141] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 21:15:11,141] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 21:15:13,223] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 21:15:14,516] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 21:15:14,631] [views.py] [QueryJob] [line:277] [CRITICAL]  - The Exception is unsupported operand type(s) for +: 'set' and 'set'
+[2017-03-05 21:15:17,640] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 21:15:17,641] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 21:15:17,641] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 21:15:19,355] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 21:16:02,907] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 21:16:02,907] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 21:16:02,907] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 21:16:05,418] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 21:16:06,000] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 21:16:06,016] [views.py] [QueryJob] [line:277] [CRITICAL]  - The Exception is can only concatenate list (not "set") to list
+[2017-03-05 21:16:09,025] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 21:16:09,025] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 21:16:09,025] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 21:16:10,588] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 21:16:11,944] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 21:16:12,160] [views.py] [QueryJob] [line:277] [CRITICAL]  - The Exception is can only concatenate list (not "set") to list
+[2017-03-05 21:16:15,167] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 21:16:15,167] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 21:16:15,168] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 21:16:17,927] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 21:16:18,160] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 21:16:18,177] [views.py] [QueryJob] [line:277] [CRITICAL]  - The Exception is can only concatenate list (not "set") to list
+[2017-03-05 21:16:21,184] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 21:16:21,184] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 21:16:21,184] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 21:19:24,572] [views.py] [login_wrapper] [line:34] [INFO]  - 获取到的IP地址为：127.0.0.1
+[2017-03-05 21:19:24,572] [views.py] [login_wrapper] [line:39] [INFO]  - 访问IP[127.0.0.1]在安全IP列表[['127.0.0.1', '172.16.199.39', '172.22.91.80']]中！
+[2017-03-05 21:19:24,572] [views.py] [QueryJob] [line:210] [INFO]  - 接收到的taskid为:2017030201
+[2017-03-05 21:19:26,265] [views.py] [QueryJob] [line:213] [INFO]  - 开始查询任务[2017030201]的执行详情...
+[2017-03-05 21:19:26,440] [views.py] [QueryJob] [line:249] [INFO]  - 任务[2017030201]执行失败的主机
+[2017-03-05 21:19:26,473] [views.py] [QueryJob] [line:257] [INFO]  - 查询任务[2017030201]返回报文为:{"all_detail":"172.19.152.88,172.19.152.19,172.19.152.21","all_num":3,"fail_detail":"172.19.152.21:useradd: user 'zhulh' already exists,172.19.152.19:useradd: user 'zhulh' already exists172.19.152.88","fail_num":3,"message":"任务[2017030201]有执行失败的主机","result":"fail","success_detail":"","success_num":0}
+[2017-03-05 21:19:26,473] [views.py] [QueryJob] [line:260] [INFO]  - false

@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block title %}Server Manage{% endblock %}
+{% block content %}
+    <style>
+    th{
+    text-align:center;
+    }
+    </style>
+    <h2>Server Manage</h2>
+    <div>
+    <form action="/cmdb/server_info/" method="post">
+        <h3>IP查询: <input type="text" name="ip_list"/>
+            <input id="Select"  type="submit" name="action" value="Select" />
+        </h3>
+    </form>
+    <table border="1" width="100%">
+        <tr>
+            <th><input type="checkbox" value="" onclick="selectAll()"></th>
+            <th>服务器ID</th>
+            <th>IP地址</th>
+            <th>内存(G)</th>
+            <th>CPU型号</th>
+            <th>CPU核数</th>
+            <th>SN</th>
+            <th>厂商</th>
+        </tr>
+        {% for meg in meg %}
+            <tr>
+                <th><input type="checkbox" value=""></th>
+                <th>{{ meg.id }}</th>
+                <th>{{ meg.assert_id }}</th>
+                <th>{{ meg.memory }}</th>
+                <th>{{ meg.cpu_model }}</th>
+                <th>{{ meg.cpu_num }}</th>
+                <th>{{ meg.sn }}</th>
+                <th>{{ meg.manufacturer }}</th>
+            </tr>
+    {% endfor %}
+    </table>
+    <p style="text-align:center;">
+        {% if meg.has_previous %}
+            <a href="?page={{ meg.previous_page_number }}">上一页</a>
+        {% endif %}
+        {# t_cmd.paginator.number_pages 返回总页数 #}
+        Page {{ meg.number }} of {{ meg.paginator.num_pages }}.
+        {% if meg.has_next %}
+            <a href="?page={{ meg.next_page_number }}">下一页</a>
+        {% endif %}
+        <select class="page_num" name="page_num" id="page_num">
+            <option selected="selected">100</option>
+            <option>500</option>
+            <option>1000</option>
+        </select>
+    </p>
+    </div>
+    <script src="/static/jquery-1.8.2.js"></script>
+    <script type="text/javascript">
+    //checkbox 全选/取消全选
+    var isCheckAll = false;
+    function selectAll(){
+        if (isCheckAll){
+            $("input[type='checkbox']").each(function(){
+                this.checked = false;
+            });
+            isCheckAll = false;
+        } else {
+            $("input[type='checkbox']").each(function(){
+                this.checked = true;
+            });
+            isCheckAll = true
+        }
+
+    }
+    	$(".page_num").on("click",function(event){
+		event.preventDefault();
+		var page_num = $('#page_num').val();
+//		alert(page_num);
+		$.ajax({
+			type:"GET",
+			url:"/cmdb/server_info/",
+			data:{"page_num":page_num},
+			success: function(result) {
+				console.log(page_num);
+//				$("#container").html(result);
+//				console.log({{meg}});
+//				window.location.reload();
+			},
+			error: function(result){
+//				window.location.reload();
+				console.log(page_num);
+			}
+		});
+	});
+    </script>
+{% endblock%}

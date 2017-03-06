@@ -43,6 +43,7 @@ INSTALLED_APPS = (
     'autodeploy',
     'Ronaldo',
     'filemanage',
+    'autoreport',
 )
 
 MIDDLEWARE_CLASSES = (

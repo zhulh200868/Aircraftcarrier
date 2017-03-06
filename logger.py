@@ -56,9 +56,10 @@ if is_writefile:
     logfile = logging.FileHandler("%s"%logname,'a')
     logfile.setLevel(logging.INFO)
     '''
-    logfile =  TimedRotatingFileHandler("%s"%logname, "D", 1, 5)
-    logfile.suffix = "%Y%m%d"
-    formatter = logging.Formatter('[%(asctime)s] [%(filename)s] [line:%(lineno)d] [%(levelname)s] %(message)s')
+    logfile =  TimedRotatingFileHandler("%s"%logname, "D", 1, 10)
+    # logfile.suffix = "%Y%m%d"
+    # logfile.suffix = "%Y-%m-%d"
+    formatter = logging.Formatter('[%(asctime)s] [%(filename)s] [%(funcName)s] [line:%(lineno)d] [%(levelname)s] %(message)s')
     logfile.setLevel(logging.INFO)
     logfile.setFormatter(formatter)
     logger.addHandler(logfile)

@@ -68,7 +68,7 @@ def command(data,url):
 
 
 ##检查结果
-def checkResult(data,url,check_time=5,check_cnt=10):
+def checkResult(data,url,check_time=3,check_cnt=10):
     data=json.dumps(data)
     data=json.loads(data)
     print(data)
@@ -165,16 +165,13 @@ def analyzeResult(res,total_cnt):
 def main():
     #处理参数
     # data = '{"mid":"201702161129_3","paras":[{"arg":"zhulh","cmd":"os_util.useradd","cmd_parent":"os_util","ip_category_list":"102,67","ip_list":"172.19.152.40,172.16.167.106","no":"2"}]}'
-    # data = {"task_id":"2017030201","paras":[{"arg":"zhulh","cmd":"os_util.userdel","cmd_parent":"os_util","ip_category_list":"102,67","ip_list":"172.19.152.19","no":"1","step_num":"1"}]}
-    data = {"task_id":"2017030201","step_num":"1","no":"1","ip_list":"172.19.152.19,172.19.152.21,172.19.152.88","cmd":"os_util.useradd","arg":"zhulh"}
+    data = {"task_id":"2017030201","paras":[{"arg":"zhulh","cmd":"os_util.userdel","cmd_parent":"os_util","ip_category_list":"102,67","ip_list":"172.19.152.19","no":"1","step_num":"1"}]}
     url='http://127.0.0.1:9009'
     ##调用接口    command(data,url)
-    # command(data,url)
-    # if command(data,url) == "True":
-    #     print '等待10秒检查返回结果'
-    #     time.sleep(10)
-    data = {"task_id":"2017030201","paras":[{"arg":"zhulh","cmd":"os_util.useradd","cmd_parent":"os_util","ip_category_list":"102,67","ip_list":"172.19.152.19,172.19.152.21,172.19.152.88","no":"1","step_num":"1"}]}
-    checkResult(data,url)
+    if command(data,url) == "True":
+        print '等待10秒检查返回结果'
+        time.sleep(10)
+        checkResult(data,url)
 
 if __name__ == '__main__':
     main()
